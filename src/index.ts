@@ -7,7 +7,6 @@ const app = new Elysia()
   .get("/", () => "Hello Elysia")
   .use(arit)
   .use(cart)
-  .use(password)
   .listen(3000)
 
 console.log(
